@@ -1,0 +1,26 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="600" fill="#7C3AED"/>
+
+  <!-- Halftone pattern overlay -->
+  <defs>
+    <pattern id="dots-infinity-gauntlet" patternUnits="userSpaceOnUse" width="8" height="8">
+      <circle cx="4" cy="4" r="2" fill="rgba(0,0,0,0.1)"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="600" fill="url(#dots-infinity-gauntlet)"/>
+
+  <!-- Border -->
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#fff" stroke-width="4"/>
+
+  <!-- Title -->
+  <text x="200" y="180" font-family="Arial Black, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#fff" stroke="#000" stroke-width="2">INFINITY</text>
+  <text x="200" y="240" font-family="Arial Black, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#fff" stroke="#000" stroke-width="2">GAUNTLET</text>
+
+  <!-- Issue number -->
+  <text x="200" y="340" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#fff">#1</text>
+
+  <!-- Bottom accent -->
+  <rect x="40" y="520" width="320" height="60" fill="rgba(0,0,0,0.3)"/>
+  <text x="200" y="560" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#fff">COLLECTOR'S EDITION</text>
+</svg>

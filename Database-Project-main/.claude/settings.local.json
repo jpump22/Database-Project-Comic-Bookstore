@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(python:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(sqlite3:*)",
+      "Bash(npx better-sqlite3:*)",
+      "Bash(npm run dev:*)",
+      "Skill(chrome-devtools)",
+      "Bash(node screenshot.js:*)",
+      "Bash(dir:*)",
+      "Bash(nul)",
+      "Bash(findstr:*)",
+      "Bash(node performance.js:*)",
+      "Bash(node -e:*)",
+      "Bash(curl:*)",
+      "Bash(git push)",
+      "Bash(ls:*)",
+      "Bash(tree:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
