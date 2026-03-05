@@ -18,21 +18,15 @@ This project was originally developed as part of a **collaborative university da
 * Tailwind CSS
 * SQLite
 
-## Key Features
-
-* Dynamic page builder using custom content blocks
-* Comic book product catalog with categories and grading
-* Event management for comic shop events
-* Interactive UI elements and modern design
-* Dual SQLite database architecture for CMS and business data
-
 ## Project Structure
 
+```
 Database-Project/
 ├── tates-trading-post/          # Main Next.js + PayloadCMS application
 │   ├── src/                     # Source code
-│   │   ├── app/                 # Next.js routing and pages
+│   │   ├── app/                 # Next.js App Router
 │   │   ├── blocks/              # Custom page builder blocks
+│   │   ├── heros/               # Hero section variants
 │   │   ├── collections/         # PayloadCMS collections
 │   │   ├── components/          # React components
 │   │   └── globals/             # Site-wide settings
@@ -40,6 +34,21 @@ Database-Project/
 │   ├── cms.db                   # PayloadCMS content database
 │   ├── business.db              # Business logic database
 │   └── package.json             # Dependencies
+├── docs/                        # Project documentation
+│   ├── templates/               # Original HTML/CSS/JS templates
+│   └── *.md                     # Implementation guides
+├── DATABASE-ARCHITECTURE.md     # Database architecture guide
+└── TATES-TEMPLATE-INTEGRATION.md # Template integration reference
+```
+
+## Key Features
+
+- **Dynamic Page Builder**: Custom blocks for bento grids, events, and vintage sections
+- **Comic Product Management**: Enhanced with badges, grading, and categorization
+- **Event Management**: Display upcoming comic shop events
+- **Interactive UI**: Kinetic typography, custom cursor, FPS monitor
+- **Glassmorphism Design**: Modern aesthetic with backdrop blur effects
+- **Dual Database Setup**: Separate CMS and business logic databases
 
 ## My Contributions
 
