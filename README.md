@@ -91,7 +91,7 @@ This repository contains a version of a collaborative academic project and is pr
 ## Screenshots
 
 ### Homepage
-![Homepage](screenshots/Home-Page/homepage1.jpg)
+![Homepage](screenshots/Home-page/homepage1.jpg)
 
 ### Admin Dashboard
 ![Admin Dashboard](screenshots/Admin-Dashboard/admin1.jpg)
