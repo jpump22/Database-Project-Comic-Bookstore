@@ -87,3 +87,11 @@ The application uses two SQLite databases:
 ## Academic Project Note
 
 This repository contains a version of a collaborative academic project and is provided for portfolio purposes to demonstrate experience with full-stack web development, CMS integration, and database-backed web applications.
+
+## Screenshots
+
+### Homepage
+![Homepage](screenshots/homepage1.jpg)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin1.jpg)
